@@ -30,8 +30,7 @@ $xml = simplexml_load_file("src/data/data.xml");
 
             <h1 id = "title">моя коллекция винила</h1>
 
-            <!-- <img class = "button" id = "img" src = "src/icons/plus.svg"> 
-                 <a href="create.php"><img src="src/icons/plus.svg"></a>-->
+         
             <a id = "make" href="create.php?id=<?php echo $plate['id'] ?>">создать</a>
         </div>
 
